@@ -64,3 +64,5 @@ ompl-1.7.0/*
 topdown*.png
 test.py
 navigation_output/*
+/navigation_log.txt
+*.before-habitat032

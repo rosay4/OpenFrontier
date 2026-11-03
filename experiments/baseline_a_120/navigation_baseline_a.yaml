@@ -1,0 +1,95 @@
+df_normalizer: 10
+df_thr: 0.3
+num_classes: 11
+input_img_size:
+- 320
+- 320
+focal_length: 300.0
+filter_bbox:
+- -11
+- 10
+- -16
+- 4
+- 0.4
+- 1.8
+filter_max_vd_z: 0.65
+force_all_frontier_to_xy: false
+filter_min_gain: 0.5
+visited_trans_threshold: 0.5
+visited_angle_threshold: 0.4
+visited_gain_reduction_factor: 2000
+utility_gain_factor: 2.0
+render_K:
+- 60.0
+- 0.0
+- 64.0
+- 0.0
+- 60.0
+- 64.0
+- 0.0
+- 0.0
+- 1.0
+render_H: 128
+render_W: 128
+render_d_range: 3.5
+render_decrease_factor: 1.0
+voxel_size: 0.1
+depth_range: 3.5
+bounds:
+- -11
+- 10
+- -16
+- 4
+- 0.4
+- 1.8
+use_free_grid: true
+use_occ_grid: true
+min_dist2occ: 0.2
+max_dist2free: 0.075
+max_planning_time: 1.5
+planning_algo: rrtstar
+predict_interval: 6
+plan_interval: 15
+initial_cam_extrinsic:
+- - -0.76604444
+  - -0.64278761
+  - -0.0
+  - 0.29643052
+- - 0.0
+  - 0.0
+  - -1.0
+  - 1.0
+- - 0.64278761
+  - -0.76604444
+  - -0.0
+  - 0.27904303
+- - 0.0
+  - 0.0
+  - 0.0
+  - 1.0
+observer_cam_extrinsic:
+- - -0.00219651623
+  - -0.999937606
+  - -0.0109525786
+  - -7.20345647
+- - -0.999869439
+  - 0.00202076514
+  - 0.0160318772
+  - 0.675098675
+- - -0.0160087443
+  - 0.0109863629
+  - -0.999811492
+  - 21.6745306
+- - 0.0
+  - 0.0
+  - 0.0
+  - 1.0
+n_images: 6
+termination_threshold: 0.7
+success_threshold: 1.0
+seeking_weight: 1.0
+prob_sharpness: 2.0
+segmentation_source: sam3
+probabilities_source: InternVL3_5-4B
+detection_source: InternVL3_5-4B
+pointnav_weights_path: model_weights/pointnav_weights.pth

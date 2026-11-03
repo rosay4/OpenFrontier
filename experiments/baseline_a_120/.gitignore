@@ -1,0 +1,5 @@
+data/
+backups/
+state.json
+.start.lock
+__pycache__/

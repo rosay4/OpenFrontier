@@ -14,7 +14,7 @@ from utils.config_utils import ovon_config, hm3d_config, mp3d_config, DATA_PATH
 import habitat
 
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+os.environ.setdefault("CUDA_VISIBLE_DEVICES", "0")
 os.environ["MAGNUM_LOG"] = "quiet"
 os.environ["HABITAT_SIM_LOG"] = "quiet"
 

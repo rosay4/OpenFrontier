@@ -1,0 +1,2968 @@
+[
+  {
+    "identity": {
+      "source_index": 4,
+      "original_episode_id": "0",
+      "habitat_episode_id_after_loading": "0",
+      "category": "sofa",
+      "a_runtime_id": "1",
+      "scene": "4ok3usBNeis"
+    },
+    "metrics": {
+      "episode": "1",
+      "success": "1.0",
+      "spl": "0.1725025920485315",
+      "distance_to_goal": "0.04266640916466713",
+      "object_goal": "sofa",
+      "termination_reason": "object_found"
+    },
+    "telemetry": {
+      "scene": "4ok3usBNeis",
+      "habitat_episode_id": "1",
+      "benchmark_episode": 1,
+      "original_episode_id": "0",
+      "object_category": "sofa",
+      "vlm": {
+        "frontier": {
+          "calls": 25,
+          "seconds": 112.52635103091598,
+          "parse_failures": 1,
+          "exceptions": 0,
+          "calls_by_step": {
+            "7": 1,
+            "13": 2,
+            "19": 1,
+            "49": 1,
+            "73": 1,
+            "79": 1,
+            "91": 1,
+            "103": 1,
+            "109": 1,
+            "112": 1,
+            "115": 1,
+            "121": 1,
+            "127": 1,
+            "139": 1,
+            "145": 1,
+            "163": 1,
+            "169": 1,
+            "175": 1,
+            "181": 1,
+            "211": 1,
+            "217": 1,
+            "223": 1,
+            "229": 1,
+            "235": 1
+          }
+        },
+        "verification": {
+          "calls": 1,
+          "seconds": 4.97190221096389,
+          "parse_failures": 0,
+          "exceptions": 0,
+          "calls_by_step": {
+            "251": 1
+          }
+        }
+      },
+      "http": {
+        "sam3/sam3": {
+          "requests": 42,
+          "seconds": 28.01576389139518,
+          "errors": 0
+        },
+        "vlm/frontier": {
+          "requests": 25,
+          "seconds": 109.15968710999005,
+          "errors": 0
+        },
+        "vlm/verification": {
+          "requests": 1,
+          "seconds": 4.475219199201092,
+          "errors": 0
+        }
+      },
+      "navigation_seconds": 262.71929715340957,
+      "models": {
+        "segmentation_source": "sam3",
+        "probabilities_source": "InternVL3_5-4B",
+        "detection_source": "InternVL3_5-4B"
+      },
+      "agent_seconds_before_video_export": 295.95106719387695,
+      "navigation_steps": 251,
+      "builtin_timings": {
+        "frontier_detection_step": {
+          "total_time": 10.202598094940186,
+          "calls": 47
+        },
+        "frontier_detection_global": {
+          "total_time": 10.20895528793335,
+          "calls": 252
+        },
+        "vlm_probabilities": {
+          "total_time": 112.8367121219635,
+          "calls": 24
+        },
+        "vlm_call": {
+          "total_time": 117.49872326850891,
+          "calls": 26
+        },
+        "total_segmentation": {
+          "total_time": 52.01639652252197,
+          "calls": 42
+        },
+        "mapping_update": {
+          "total_time": 32.55391049385071,
+          "calls": 42
+        },
+        "frontier_update_no_som": {
+          "total_time": 11.583431005477905,
+          "calls": 47
+        },
+        "frontier_manager_update": {
+          "total_time": 16.52019953727722,
+          "calls": 281
+        },
+        "pointnav_planning": {
+          "total_time": 7.524190187454224,
+          "calls": 252
+        },
+        "navigation_time": {
+          "total_time": 254.54757642745972,
+          "calls": 251
+        },
+        "navigation_time_no_ai": {
+          "total_time": 80.40756154060364,
+          "calls": 251
+        },
+        "navigation_time_no_map": {
+          "total_time": 222.69414281845093,
+          "calls": 251
+        },
+        "navigation_time_no_ai_no_map": {
+          "total_time": 48.55412793159485,
+          "calls": 251
+        },
+        "move_time": {
+          "total_time": 24.261269092559814,
+          "calls": 246
+        },
+        "rotate_time": {
+          "total_time": 0.562687873840332,
+          "calls": 6
+        },
+        "full_frontier_update": {
+          "total_time": 124.4201431274414,
+          "calls": 47
+        },
+        "sam": {
+          "total_time": 51.42624592781067,
+          "calls": 42
+        },
+        "move_habitat": {
+          "total_time": 24.12992262840271,
+          "calls": 252
+        },
+        "read_habitat": {
+          "total_time": 0.7320425510406494,
+          "calls": 504
+        }
+      },
+      "video_export_seconds": 3.9080745088867843
+    },
+    "telemetry_path": "/home/chenhongyuan/projects/openfrontier/output/baseline_a_120_20261102_235157/baseline_a_120_sam3_internvl3_5_internvl3_5/4ok3usBNeis/success/episode-1-sofa/episode_telemetry.json"
+  },
+  {
+    "identity": {
+      "source_index": 25,
+      "original_episode_id": "4",
+      "habitat_episode_id_after_loading": "0",
+      "category": "toilet",
+      "a_runtime_id": "3",
+      "scene": "BAbdmeyTvMZ"
+    },
+    "metrics": {
+      "episode": "3",
+      "success": "0.0",
+      "spl": "0.0",
+      "distance_to_goal": "8.558015823364258",
+      "object_goal": "toilet",
+      "termination_reason": "continue_navigation"
+    },
+    "telemetry": {
+      "scene": "BAbdmeyTvMZ",
+      "habitat_episode_id": "3",
+      "benchmark_episode": 3,
+      "original_episode_id": "4",
+      "object_category": "toilet",
+      "vlm": {
+        "frontier": {
+          "calls": 61,
+          "seconds": 336.4851331473328,
+          "parse_failures": 4,
+          "exceptions": 0,
+          "calls_by_step": {
+            "7": 1,
+            "13": 1,
+            "37": 1,
+            "55": 1,
+            "61": 1,
+            "73": 1,
+            "85": 1,
+            "91": 1,
+            "97": 1,
+            "103": 1,
+            "104": 1,
+            "109": 1,
+            "133": 1,
+            "134": 1,
+            "139": 1,
+            "187": 1,
+            "199": 1,
+            "205": 1,
+            "211": 1,
+            "217": 1,
+            "223": 1,
+            "229": 1,
+            "235": 1,
+            "241": 1,
+            "247": 2,
+            "253": 1,
+            "259": 1,
+            "265": 2,
+            "271": 1,
+            "283": 1,
+            "289": 1,
+            "307": 1,
+            "313": 1,
+            "319": 1,
+            "331": 1,
+            "337": 1,
+            "343": 1,
+            "361": 1,
+            "367": 1,
+            "369": 1,
+            "373": 1,
+            "385": 1,
+            "391": 2,
+            "415": 1,
+            "421": 2,
+            "427": 1,
+            "439": 1,
+            "440": 1,
+            "445": 1,
+            "451": 1,
+            "457": 1,
+            "463": 1,
+            "467": 1,
+            "469": 1,
+            "475": 1,
+            "481": 1,
+            "487": 1
+          }
+        }
+      },
+      "http": {
+        "sam3/sam3": {
+          "requests": 82,
+          "seconds": 54.83139748452231,
+          "errors": 0
+        },
+        "vlm/frontier": {
+          "requests": 61,
+          "seconds": 327.9943190738559,
+          "errors": 0
+        }
+      },
+      "navigation_seconds": 624.240114978049,
+      "models": {
+        "segmentation_source": "sam3",
+        "probabilities_source": "InternVL3_5-4B",
+        "detection_source": "InternVL3_5-4B"
+      },
+      "agent_seconds_before_video_export": 685.4538155440241,
+      "navigation_steps": 491,
+      "builtin_timings": {
+        "frontier_detection_step": {
+          "total_time": 24.386823415756226,
+          "calls": 91
+        },
+        "frontier_detection_global": {
+          "total_time": 24.399908781051636,
+          "calls": 492
+        },
+        "vlm_probabilities": {
+          "total_time": 337.2786521911621,
+          "calls": 57
+        },
+        "vlm_call": {
+          "total_time": 336.4862325191498,
+          "calls": 61
+        },
+        "total_segmentation": {
+          "total_time": 102.15732312202454,
+          "calls": 82
+        },
+        "mapping_update": {
+          "total_time": 69.1433310508728,
+          "calls": 82
+        },
+        "frontier_update_no_som": {
+          "total_time": 31.38599920272827,
+          "calls": 91
+        },
+        "frontier_manager_update": {
+          "total_time": 50.925986528396606,
+          "calls": 573
+        },
+        "pointnav_planning": {
+          "total_time": 14.251245260238647,
+          "calls": 492
+        },
+        "navigation_time": {
+          "total_time": 622.0980534553528,
+          "calls": 492
+        },
+        "navigation_time_no_ai": {
+          "total_time": 152.2545461654663,
+          "calls": 492
+        },
+        "navigation_time_no_map": {
+          "total_time": 552.95472240448,
+          "calls": 492
+        },
+        "navigation_time_no_ai_no_map": {
+          "total_time": 83.1112151145935,
+          "calls": 492
+        },
+        "move_time": {
+          "total_time": 21.95524835586548,
+          "calls": 483
+        },
+        "rotate_time": {
+          "total_time": 0.7512638568878174,
+          "calls": 17
+        },
+        "full_frontier_update": {
+          "total_time": 368.6646513938904,
+          "calls": 91
+        },
+        "sam": {
+          "total_time": 101.1788558959961,
+          "calls": 82
+        },
+        "move_habitat": {
+          "total_time": 21.43632435798645,
+          "calls": 500
+        },
+        "read_habitat": {
+          "total_time": 1.388521432876587,
+          "calls": 992
+        }
+      },
+      "video_export_seconds": 7.681420668959618
+    },
+    "telemetry_path": "/home/chenhongyuan/projects/openfrontier/output/baseline_a_120_20261102_235157/baseline_a_120_sam3_internvl3_5_internvl3_5/BAbdmeyTvMZ/failure/episode-3-toilet-continue_navigation/episode_telemetry.json"
+  },
+  {
+    "identity": {
+      "source_index": 7,
+      "original_episode_id": "4",
+      "habitat_episode_id_after_loading": "0",
+      "category": "chair",
+      "a_runtime_id": "1",
+      "scene": "CrMo8WxCyVb"
+    },
+    "metrics": {
+      "episode": "1",
+      "success": "1.0",
+      "spl": "0.42090078773018613",
+      "distance_to_goal": "0.0633092150092125",
+      "object_goal": "chair",
+      "termination_reason": "object_found"
+    },
+    "telemetry": {
+      "scene": "CrMo8WxCyVb",
+      "habitat_episode_id": "1",
+      "benchmark_episode": 1,
+      "original_episode_id": "4",
+      "object_category": "chair",
+      "vlm": {
+        "frontier": {
+          "calls": 31,
+          "seconds": 194.34034837549552,
+          "parse_failures": 13,
+          "exceptions": 0,
+          "calls_by_step": {
+            "7": 1,
+            "27": 1,
+            "31": 1,
+            "37": 2,
+            "43": 1,
+            "49": 1,
+            "61": 1,
+            "67": 10,
+            "73": 1,
+            "79": 1,
+            "85": 1,
+            "115": 1,
+            "121": 1,
+            "139": 1,
+            "145": 1,
+            "151": 1,
+            "157": 3,
+            "163": 1,
+            "169": 1
+          }
+        },
+        "verification": {
+          "calls": 1,
+          "seconds": 3.144436707952991,
+          "parse_failures": 0,
+          "exceptions": 0,
+          "calls_by_step": {
+            "180": 1
+          }
+        }
+      },
+      "http": {
+        "sam3/sam3": {
+          "requests": 30,
+          "seconds": 21.17259776312858,
+          "errors": 0
+        },
+        "vlm/frontier": {
+          "requests": 31,
+          "seconds": 189.45560852251947,
+          "errors": 0
+        },
+        "vlm/verification": {
+          "requests": 1,
+          "seconds": 2.5468093948438764,
+          "errors": 0
+        }
+      },
+      "navigation_seconds": 308.5185989730526,
+      "models": {
+        "segmentation_source": "sam3",
+        "probabilities_source": "InternVL3_5-4B",
+        "detection_source": "InternVL3_5-4B"
+      },
+      "agent_seconds_before_video_export": 329.5768129720818,
+      "navigation_steps": 180,
+      "builtin_timings": {
+        "frontier_detection_step": {
+          "total_time": 8.482011079788208,
+          "calls": 32
+        },
+        "frontier_detection_global": {
+          "total_time": 8.486493587493896,
+          "calls": 181
+        },
+        "vlm_probabilities": {
+          "total_time": 194.6259264945984,
+          "calls": 19
+        },
+        "vlm_call": {
+          "total_time": 197.48535251617432,
+          "calls": 32
+        },
+        "total_segmentation": {
+          "total_time": 40.8193302154541,
+          "calls": 30
+        },
+        "mapping_update": {
+          "total_time": 25.16589093208313,
+          "calls": 30
+        },
+        "frontier_update_no_som": {
+          "total_time": 10.70311689376831,
+          "calls": 32
+        },
+        "frontier_manager_update": {
+          "total_time": 20.16553544998169,
+          "calls": 206
+        },
+        "pointnav_planning": {
+          "total_time": 5.268456935882568,
+          "calls": 181
+        },
+        "navigation_time": {
+          "total_time": 304.7832570075989,
+          "calls": 180
+        },
+        "navigation_time_no_ai": {
+          "total_time": 59.107226610183716,
+          "calls": 180
+        },
+        "navigation_time_no_map": {
+          "total_time": 279.61736607551575,
+          "calls": 180
+        },
+        "navigation_time_no_ai_no_map": {
+          "total_time": 33.941335678100586,
+          "calls": 180
+        },
+        "move_time": {
+          "total_time": 9.894342184066772,
+          "calls": 179
+        },
+        "rotate_time": {
+          "total_time": 0.08084487915039062,
+          "calls": 2
+        },
+        "full_frontier_update": {
+          "total_time": 205.3290433883667,
+          "calls": 32
+        },
+        "sam": {
+          "total_time": 40.34698700904846,
+          "calls": 30
+        },
+        "move_habitat": {
+          "total_time": 9.494997262954712,
+          "calls": 181
+        },
+        "read_habitat": {
+          "total_time": 0.522139310836792,
+          "calls": 362
+        }
+      },
+      "video_export_seconds": 3.461027534212917
+    },
+    "telemetry_path": "/home/chenhongyuan/projects/openfrontier/output/baseline_a_120_20261102_235157/baseline_a_120_sam3_internvl3_5_internvl3_5/CrMo8WxCyVb/success/episode-1-chair/episode_telemetry.json"
+  },
+  {
+    "identity": {
+      "source_index": 23,
+      "original_episode_id": "1",
+      "habitat_episode_id_after_loading": "0",
+      "category": "tv_monitor",
+      "a_runtime_id": "3",
+      "scene": "GLAQ4DNUx5U"
+    },
+    "metrics": {
+      "episode": "3",
+      "success": "1.0",
+      "spl": "0.7866728997204524",
+      "distance_to_goal": "0.04921828210353851",
+      "object_goal": "tv_monitor",
+      "termination_reason": "object_found"
+    },
+    "telemetry": {
+      "scene": "GLAQ4DNUx5U",
+      "habitat_episode_id": "3",
+      "benchmark_episode": 3,
+      "original_episode_id": "1",
+      "object_category": "tv_monitor",
+      "vlm": {
+        "frontier": {
+          "calls": 11,
+          "seconds": 64.4536402609665,
+          "parse_failures": 3,
+          "exceptions": 0,
+          "calls_by_step": {
+            "0": 1,
+            "13": 4,
+            "19": 1,
+            "25": 1,
+            "31": 1,
+            "37": 1,
+            "43": 1,
+            "49": 1
+          }
+        },
+        "verification": {
+          "calls": 1,
+          "seconds": 3.596602647798136,
+          "parse_failures": 0,
+          "exceptions": 0,
+          "calls_by_step": {
+            "68": 1
+          }
+        }
+      },
+      "http": {
+        "vlm/frontier": {
+          "requests": 11,
+          "seconds": 62.46539165917784,
+          "errors": 0
+        },
+        "sam3/sam3": {
+          "requests": 11,
+          "seconds": 7.997646446106955,
+          "errors": 0
+        },
+        "vlm/verification": {
+          "requests": 1,
+          "seconds": 2.8255598980467767,
+          "errors": 0
+        }
+      },
+      "navigation_seconds": 107.51911267521791,
+      "models": {
+        "segmentation_source": "sam3",
+        "probabilities_source": "InternVL3_5-4B",
+        "detection_source": "InternVL3_5-4B"
+      },
+      "agent_seconds_before_video_export": 119.29014925193042,
+      "navigation_steps": 68,
+      "builtin_timings": {
+        "frontier_detection_step": {
+          "total_time": 3.3150734901428223,
+          "calls": 13
+        },
+        "frontier_detection_global": {
+          "total_time": 3.3170039653778076,
+          "calls": 69
+        },
+        "vlm_probabilities": {
+          "total_time": 64.56433773040771,
+          "calls": 8
+        },
+        "vlm_call": {
+          "total_time": 68.05045342445374,
+          "calls": 12
+        },
+        "total_segmentation": {
+          "total_time": 16.83100461959839,
+          "calls": 11
+        },
+        "mapping_update": {
+          "total_time": 9.210230112075806,
+          "calls": 11
+        },
+        "frontier_update_no_som": {
+          "total_time": 3.5867109298706055,
+          "calls": 13
+        },
+        "frontier_manager_update": {
+          "total_time": 3.8358261585235596,
+          "calls": 79
+        },
+        "pointnav_planning": {
+          "total_time": 1.9678761959075928,
+          "calls": 69
+        },
+        "navigation_time": {
+          "total_time": 103.71514582633972,
+          "calls": 68
+        },
+        "navigation_time_no_ai": {
+          "total_time": 19.2939031124115,
+          "calls": 68
+        },
+        "navigation_time_no_map": {
+          "total_time": 94.50491571426392,
+          "calls": 68
+        },
+        "navigation_time_no_ai_no_map": {
+          "total_time": 10.083673000335693,
+          "calls": 68
+        },
+        "move_time": {
+          "total_time": 3.8181650638580322,
+          "calls": 67
+        },
+        "rotate_time": {
+          "total_time": 0.05408954620361328,
+          "calls": 1
+        },
+        "full_frontier_update": {
+          "total_time": 68.15104866027832,
+          "calls": 13
+        },
+        "sam": {
+          "total_time": 16.270194053649902,
+          "calls": 11
+        },
+        "move_habitat": {
+          "total_time": 3.6820931434631348,
+          "calls": 68
+        },
+        "read_habitat": {
+          "total_time": 0.21950578689575195,
+          "calls": 137
+        }
+      },
+      "video_export_seconds": 2.3285296340472996
+    },
+    "telemetry_path": "/home/chenhongyuan/projects/openfrontier/output/baseline_a_120_20261102_235157/baseline_a_120_sam3_internvl3_5_internvl3_5/GLAQ4DNUx5U/success/episode-3-tv_monitor/episode_telemetry.json"
+  },
+  {
+    "identity": {
+      "source_index": 24,
+      "original_episode_id": "6",
+      "habitat_episode_id_after_loading": "0",
+      "category": "chair",
+      "a_runtime_id": "3",
+      "scene": "HY1NcmCgn3n"
+    },
+    "metrics": {
+      "episode": "3",
+      "success": "1.0",
+      "spl": "0.7453495236992681",
+      "distance_to_goal": "0.05801042541861534",
+      "object_goal": "chair",
+      "termination_reason": "object_found"
+    },
+    "telemetry": {
+      "scene": "HY1NcmCgn3n",
+      "habitat_episode_id": "3",
+      "benchmark_episode": 3,
+      "original_episode_id": "6",
+      "object_category": "chair",
+      "vlm": {
+        "frontier": {
+          "calls": 5,
+          "seconds": 26.640773248160258,
+          "parse_failures": 1,
+          "exceptions": 0,
+          "calls_by_step": {
+            "1": 1,
+            "7": 1,
+            "25": 1,
+            "31": 2
+          }
+        },
+        "verification": {
+          "calls": 1,
+          "seconds": 3.4701696292031556,
+          "parse_failures": 0,
+          "exceptions": 0,
+          "calls_by_step": {
+            "45": 1
+          }
+        }
+      },
+      "http": {
+        "vlm/frontier": {
+          "requests": 5,
+          "seconds": 26.331783824134618,
+          "errors": 0
+        },
+        "sam3/sam3": {
+          "requests": 7,
+          "seconds": 5.338617293164134,
+          "errors": 0
+        },
+        "vlm/verification": {
+          "requests": 1,
+          "seconds": 2.90808937815018,
+          "errors": 0
+        }
+      },
+      "navigation_seconds": 51.21837069396861,
+      "models": {
+        "segmentation_source": "sam3",
+        "probabilities_source": "InternVL3_5-4B",
+        "detection_source": "InternVL3_5-4B"
+      },
+      "agent_seconds_before_video_export": 62.821101463167,
+      "navigation_steps": 45,
+      "builtin_timings": {
+        "frontier_detection_step": {
+          "total_time": 1.8617503643035889,
+          "calls": 9
+        },
+        "frontier_detection_global": {
+          "total_time": 1.8630316257476807,
+          "calls": 46
+        },
+        "vlm_probabilities": {
+          "total_time": 26.69443106651306,
+          "calls": 4
+        },
+        "vlm_call": {
+          "total_time": 30.111034154891968,
+          "calls": 6
+        },
+        "total_segmentation": {
+          "total_time": 10.028209686279297,
+          "calls": 7
+        },
+        "mapping_update": {
+          "total_time": 4.9293742179870605,
+          "calls": 7
+        },
+        "frontier_update_no_som": {
+          "total_time": 1.9397828578948975,
+          "calls": 9
+        },
+        "frontier_manager_update": {
+          "total_time": 2.0418572425842285,
+          "calls": 50
+        },
+        "pointnav_planning": {
+          "total_time": 0.5420849323272705,
+          "calls": 46
+        },
+        "navigation_time": {
+          "total_time": 47.636701822280884,
+          "calls": 45
+        },
+        "navigation_time_no_ai": {
+          "total_time": 9.163337469100952,
+          "calls": 45
+        },
+        "navigation_time_no_map": {
+          "total_time": 42.70732760429382,
+          "calls": 45
+        },
+        "navigation_time_no_ai_no_map": {
+          "total_time": 4.233963251113892,
+          "calls": 45
+        },
+        "move_time": {
+          "total_time": 1.4731862545013428,
+          "calls": 45
+        },
+        "rotate_time": {
+          "total_time": 0.0,
+          "calls": 0
+        },
+        "full_frontier_update": {
+          "total_time": 28.63421392440796,
+          "calls": 9
+        },
+        "sam": {
+          "total_time": 9.839150428771973,
+          "calls": 7
+        },
+        "move_habitat": {
+          "total_time": 1.3767924308776855,
+          "calls": 45
+        },
+        "read_habitat": {
+          "total_time": 0.10767006874084473,
+          "calls": 91
+        }
+      },
+      "video_export_seconds": 2.5340812001377344
+    },
+    "telemetry_path": "/home/chenhongyuan/projects/openfrontier/output/baseline_a_120_20261102_235157/baseline_a_120_sam3_internvl3_5_internvl3_5/HY1NcmCgn3n/success/episode-3-chair/episode_telemetry.json"
+  },
+  {
+    "identity": {
+      "source_index": 2,
+      "original_episode_id": "4",
+      "habitat_episode_id_after_loading": "0",
+      "category": "sofa",
+      "a_runtime_id": "0",
+      "scene": "QaLdnwvtxbs"
+    },
+    "metrics": {
+      "episode": "0",
+      "success": "1.0",
+      "spl": "0.5389625707996392",
+      "distance_to_goal": "0.10454977303743362",
+      "object_goal": "sofa",
+      "termination_reason": "object_found"
+    },
+    "telemetry": {
+      "scene": "QaLdnwvtxbs",
+      "habitat_episode_id": "0",
+      "benchmark_episode": 0,
+      "original_episode_id": "4",
+      "object_category": "sofa",
+      "vlm": {
+        "frontier": {
+          "calls": 6,
+          "seconds": 28.958476363914087,
+          "parse_failures": 1,
+          "exceptions": 0,
+          "calls_by_step": {
+            "0": 1,
+            "13": 1,
+            "19": 2,
+            "49": 1,
+            "55": 1
+          }
+        },
+        "verification": {
+          "calls": 1,
+          "seconds": 3.028908242005855,
+          "parse_failures": 0,
+          "exceptions": 0,
+          "calls_by_step": {
+            "68": 1
+          }
+        }
+      },
+      "http": {
+        "vlm/frontier": {
+          "requests": 6,
+          "seconds": 28.15832029399462,
+          "errors": 0
+        },
+        "sam3/sam3": {
+          "requests": 11,
+          "seconds": 8.090111623052508,
+          "errors": 0
+        },
+        "vlm/verification": {
+          "requests": 1,
+          "seconds": 2.4489115849137306,
+          "errors": 0
+        }
+      },
+      "navigation_seconds": 67.342848027125,
+      "models": {
+        "segmentation_source": "sam3",
+        "probabilities_source": "InternVL3_5-4B",
+        "detection_source": "InternVL3_5-4B"
+      },
+      "agent_seconds_before_video_export": 79.30459131579846,
+      "navigation_steps": 68,
+      "builtin_timings": {
+        "frontier_detection_step": {
+          "total_time": 2.5388567447662354,
+          "calls": 13
+        },
+        "frontier_detection_global": {
+          "total_time": 2.5406272411346436,
+          "calls": 69
+        },
+        "vlm_probabilities": {
+          "total_time": 29.019514799118042,
+          "calls": 5
+        },
+        "vlm_call": {
+          "total_time": 31.987502098083496,
+          "calls": 7
+        },
+        "total_segmentation": {
+          "total_time": 15.12781047821045,
+          "calls": 11
+        },
+        "mapping_update": {
+          "total_time": 8.50564694404602,
+          "calls": 11
+        },
+        "frontier_update_no_som": {
+          "total_time": 2.6134605407714844,
+          "calls": 13
+        },
+        "frontier_manager_update": {
+          "total_time": 2.581242084503174,
+          "calls": 74
+        },
+        "pointnav_planning": {
+          "total_time": 1.708296775817871,
+          "calls": 69
+        },
+        "navigation_time": {
+          "total_time": 64.18229913711548,
+          "calls": 68
+        },
+        "navigation_time_no_ai": {
+          "total_time": 17.886663675308228,
+          "calls": 68
+        },
+        "navigation_time_no_map": {
+          "total_time": 55.67665219306946,
+          "calls": 68
+        },
+        "navigation_time_no_ai_no_map": {
+          "total_time": 9.381016731262207,
+          "calls": 68
+        },
+        "move_time": {
+          "total_time": 4.596285104751587,
+          "calls": 68
+        },
+        "rotate_time": {
+          "total_time": 0.0,
+          "calls": 0
+        },
+        "full_frontier_update": {
+          "total_time": 31.632975339889526,
+          "calls": 13
+        },
+        "sam": {
+          "total_time": 14.662660121917725,
+          "calls": 11
+        },
+        "move_habitat": {
+          "total_time": 4.4353556632995605,
+          "calls": 68
+        },
+        "read_habitat": {
+          "total_time": 0.16504740715026855,
+          "calls": 137
+        }
+      },
+      "video_export_seconds": 2.4870790999848396
+    },
+    "telemetry_path": "/home/chenhongyuan/projects/openfrontier/output/baseline_a_120_20261102_235157/baseline_a_120_sam3_internvl3_5_internvl3_5/QaLdnwvtxbs/success/episode-0-sofa/episode_telemetry.json"
+  },
+  {
+    "identity": {
+      "source_index": 19,
+      "original_episode_id": "4",
+      "habitat_episode_id_after_loading": "0",
+      "category": "chair",
+      "a_runtime_id": "2",
+      "scene": "VBzV5z6i1WS"
+    },
+    "metrics": {
+      "episode": "2",
+      "success": "1.0",
+      "spl": "0.6571850281085867",
+      "distance_to_goal": "0.04164138063788414",
+      "object_goal": "chair",
+      "termination_reason": "object_found"
+    },
+    "telemetry": {
+      "scene": "VBzV5z6i1WS",
+      "habitat_episode_id": "2",
+      "benchmark_episode": 2,
+      "original_episode_id": "4",
+      "object_category": "chair",
+      "vlm": {
+        "frontier": {
+          "calls": 2,
+          "seconds": 8.242109552025795,
+          "parse_failures": 0,
+          "exceptions": 0,
+          "calls_by_step": {
+            "10": 1,
+            "13": 1
+          }
+        },
+        "verification": {
+          "calls": 1,
+          "seconds": 3.0920474401209503,
+          "parse_failures": 0,
+          "exceptions": 0,
+          "calls_by_step": {
+            "23": 1
+          }
+        }
+      },
+      "http": {
+        "sam3/sam3": {
+          "requests": 4,
+          "seconds": 3.594367376761511,
+          "errors": 0
+        },
+        "vlm/frontier": {
+          "requests": 2,
+          "seconds": 7.907261298969388,
+          "errors": 0
+        },
+        "vlm/verification": {
+          "requests": 1,
+          "seconds": 2.7397989369928837,
+          "errors": 0
+        }
+      },
+      "navigation_seconds": 23.879116067197174,
+      "models": {
+        "segmentation_source": "sam3",
+        "probabilities_source": "InternVL3_5-4B",
+        "detection_source": "InternVL3_5-4B"
+      },
+      "agent_seconds_before_video_export": 29.604286557994783,
+      "navigation_steps": 23,
+      "builtin_timings": {
+        "frontier_detection_step": {
+          "total_time": 1.2907614707946777,
+          "calls": 6
+        },
+        "frontier_detection_global": {
+          "total_time": 1.2916243076324463,
+          "calls": 24
+        },
+        "vlm_probabilities": {
+          "total_time": 8.268275022506714,
+          "calls": 2
+        },
+        "vlm_call": {
+          "total_time": 11.334211826324463,
+          "calls": 3
+        },
+        "total_segmentation": {
+          "total_time": 6.5953686237335205,
+          "calls": 4
+        },
+        "mapping_update": {
+          "total_time": 2.991532564163208,
+          "calls": 4
+        },
+        "frontier_update_no_som": {
+          "total_time": 1.3242788314819336,
+          "calls": 6
+        },
+        "frontier_manager_update": {
+          "total_time": 0.6632792949676514,
+          "calls": 28
+        },
+        "pointnav_planning": {
+          "total_time": 0.26452088356018066,
+          "calls": 24
+        },
+        "navigation_time": {
+          "total_time": 16.971819400787354,
+          "calls": 23
+        },
+        "navigation_time_no_ai": {
+          "total_time": 3.7240045070648193,
+          "calls": 23
+        },
+        "navigation_time_no_map": {
+          "total_time": 14.815293788909912,
+          "calls": 23
+        },
+        "navigation_time_no_ai_no_map": {
+          "total_time": 1.567478895187378,
+          "calls": 23
+        },
+        "move_time": {
+          "total_time": 0.5733940601348877,
+          "calls": 22
+        },
+        "rotate_time": {
+          "total_time": 0.024727821350097656,
+          "calls": 1
+        },
+        "full_frontier_update": {
+          "total_time": 9.592553853988647,
+          "calls": 6
+        },
+        "sam": {
+          "total_time": 6.473594903945923,
+          "calls": 4
+        },
+        "move_habitat": {
+          "total_time": 0.5452678203582764,
+          "calls": 23
+        },
+        "read_habitat": {
+          "total_time": 0.06522512435913086,
+          "calls": 47
+        }
+      },
+      "video_export_seconds": 1.785018851980567
+    },
+    "telemetry_path": "/home/chenhongyuan/projects/openfrontier/output/baseline_a_120_20261102_235157/baseline_a_120_sam3_internvl3_5_internvl3_5/VBzV5z6i1WS/success/episode-2-chair/episode_telemetry.json"
+  },
+  {
+    "identity": {
+      "source_index": 0,
+      "original_episode_id": "0",
+      "habitat_episode_id_after_loading": "0",
+      "category": "plant",
+      "a_runtime_id": "0",
+      "scene": "XB4GS9ShBRE"
+    },
+    "metrics": {
+      "episode": "0",
+      "success": "1.0",
+      "spl": "0.6562280527194784",
+      "distance_to_goal": "0.06453721970319748",
+      "object_goal": "plant",
+      "termination_reason": "object_found"
+    },
+    "telemetry": {
+      "scene": "XB4GS9ShBRE",
+      "habitat_episode_id": "0",
+      "benchmark_episode": 0,
+      "original_episode_id": "0",
+      "object_category": "plant",
+      "vlm": {
+        "frontier": {
+          "calls": 55,
+          "seconds": 406.5024839746766,
+          "parse_failures": 47,
+          "exceptions": 0,
+          "calls_by_step": {
+            "0": 6,
+            "1": 10,
+            "7": 3,
+            "13": 8,
+            "19": 10,
+            "25": 10,
+            "31": 4,
+            "37": 1,
+            "49": 1,
+            "55": 1,
+            "61": 1
+          }
+        },
+        "verification": {
+          "calls": 1,
+          "seconds": 3.99897788092494,
+          "parse_failures": 0,
+          "exceptions": 0,
+          "calls_by_step": {
+            "71": 1
+          }
+        }
+      },
+      "http": {
+        "vlm/frontier": {
+          "requests": 55,
+          "seconds": 397.81456135050394,
+          "errors": 0
+        },
+        "sam3/sam3": {
+          "requests": 12,
+          "seconds": 8.23129081283696,
+          "errors": 0
+        },
+        "vlm/verification": {
+          "requests": 1,
+          "seconds": 3.2538841471541673,
+          "errors": 0
+        }
+      },
+      "navigation_seconds": 456.8830986325629,
+      "models": {
+        "segmentation_source": "sam3",
+        "probabilities_source": "InternVL3_5-4B",
+        "detection_source": "InternVL3_5-4B"
+      },
+      "agent_seconds_before_video_export": 470.3158453081269,
+      "navigation_steps": 71,
+      "builtin_timings": {
+        "frontier_detection_step": {
+          "total_time": 4.079999208450317,
+          "calls": 13
+        },
+        "frontier_detection_global": {
+          "total_time": 4.081833362579346,
+          "calls": 72
+        },
+        "vlm_probabilities": {
+          "total_time": 406.7400813102722,
+          "calls": 11
+        },
+        "vlm_call": {
+          "total_time": 410.5022120475769,
+          "calls": 56
+        },
+        "total_segmentation": {
+          "total_time": 16.16643452644348,
+          "calls": 12
+        },
+        "mapping_update": {
+          "total_time": 9.183656215667725,
+          "calls": 12
+        },
+        "frontier_update_no_som": {
+          "total_time": 4.454824447631836,
+          "calls": 13
+        },
+        "frontier_manager_update": {
+          "total_time": 3.664111852645874,
+          "calls": 83
+        },
+        "pointnav_planning": {
+          "total_time": 1.9070096015930176,
+          "calls": 72
+        },
+        "navigation_time": {
+          "total_time": 450.5558981895447,
+          "calls": 71
+        },
+        "navigation_time_no_ai": {
+          "total_time": 25.107096672058105,
+          "calls": 71
+        },
+        "navigation_time_no_map": {
+          "total_time": 442.0322895050049,
+          "calls": 71
+        },
+        "navigation_time_no_ai_no_map": {
+          "total_time": 16.58348798751831,
+          "calls": 71
+        },
+        "move_time": {
+          "total_time": 10.47530746459961,
+          "calls": 71
+        },
+        "rotate_time": {
+          "total_time": 0.3953864574432373,
+          "calls": 3
+        },
+        "full_frontier_update": {
+          "total_time": 411.19490575790405,
+          "calls": 13
+        },
+        "sam": {
+          "total_time": 15.740508556365967,
+          "calls": 12
+        },
+        "move_habitat": {
+          "total_time": 10.687536001205444,
+          "calls": 74
+        },
+        "read_habitat": {
+          "total_time": 0.19912314414978027,
+          "calls": 146
+        }
+      },
+      "video_export_seconds": 2.784002397907898
+    },
+    "telemetry_path": "/home/chenhongyuan/projects/openfrontier/output/baseline_a_120_20261102_235157/baseline_a_120_sam3_internvl3_5_internvl3_5/XB4GS9ShBRE/success/episode-0-plant/episode_telemetry.json"
+  },
+  {
+    "identity": {
+      "source_index": 17,
+      "original_episode_id": "1",
+      "habitat_episode_id_after_loading": "0",
+      "category": "toilet",
+      "a_runtime_id": "1",
+      "scene": "a8BtkwhxdRV"
+    },
+    "metrics": {
+      "episode": "1",
+      "success": "0.0",
+      "spl": "0.0",
+      "distance_to_goal": "7.034459590911865",
+      "object_goal": "toilet",
+      "termination_reason": "continue_navigation"
+    },
+    "telemetry": {
+      "scene": "a8BtkwhxdRV",
+      "habitat_episode_id": "1",
+      "benchmark_episode": 1,
+      "original_episode_id": "1",
+      "object_category": "toilet",
+      "vlm": {
+        "frontier": {
+          "calls": 13,
+          "seconds": 56.06910673924722,
+          "parse_failures": 0,
+          "exceptions": 0,
+          "calls_by_step": {
+            "0": 1,
+            "1": 1,
+            "7": 1,
+            "13": 1,
+            "31": 1,
+            "53": 1,
+            "55": 1,
+            "64": 1,
+            "113": 1,
+            "115": 1,
+            "133": 1,
+            "145": 1,
+            "151": 1
+          }
+        },
+        "verification": {
+          "calls": 1,
+          "seconds": 3.804206387139857,
+          "parse_failures": 0,
+          "exceptions": 0,
+          "calls_by_step": {
+            "162": 1
+          }
+        }
+      },
+      "http": {
+        "vlm/frontier": {
+          "requests": 13,
+          "seconds": 53.73557507805526,
+          "errors": 0
+        },
+        "sam3/sam3": {
+          "requests": 27,
+          "seconds": 16.75860116025433,
+          "errors": 0
+        },
+        "vlm/verification": {
+          "requests": 1,
+          "seconds": 3.3431421839632094,
+          "errors": 0
+        }
+      },
+      "navigation_seconds": 205.16663006297313,
+      "models": {
+        "segmentation_source": "sam3",
+        "probabilities_source": "InternVL3_5-4B",
+        "detection_source": "InternVL3_5-4B"
+      },
+      "agent_seconds_before_video_export": 252.42659899918362,
+      "navigation_steps": 466,
+      "builtin_timings": {
+        "frontier_detection_step": {
+          "total_time": 6.494225740432739,
+          "calls": 33
+        },
+        "frontier_detection_global": {
+          "total_time": 6.498329401016235,
+          "calls": 467
+        },
+        "vlm_probabilities": {
+          "total_time": 56.22434759140015,
+          "calls": 13
+        },
+        "vlm_call": {
+          "total_time": 59.87356090545654,
+          "calls": 14
+        },
+        "total_segmentation": {
+          "total_time": 29.723706007003784,
+          "calls": 27
+        },
+        "mapping_update": {
+          "total_time": 60.30641198158264,
+          "calls": 77
+        },
+        "frontier_update_no_som": {
+          "total_time": 6.8364667892456055,
+          "calls": 33
+        },
+        "frontier_manager_update": {
+          "total_time": 10.620317935943604,
+          "calls": 492
+        },
+        "pointnav_planning": {
+          "total_time": 11.88343095779419,
+          "calls": 467
+        },
+        "navigation_time": {
+          "total_time": 203.80196976661682,
+          "calls": 467
+        },
+        "navigation_time_no_ai": {
+          "total_time": 111.42878365516663,
+          "calls": 467
+        },
+        "navigation_time_no_map": {
+          "total_time": 143.49555778503418,
+          "calls": 467
+        },
+        "navigation_time_no_ai_no_map": {
+          "total_time": 51.122371673583984,
+          "calls": 467
+        },
+        "move_time": {
+          "total_time": 21.712383270263672,
+          "calls": 461
+        },
+        "rotate_time": {
+          "total_time": 1.8351001739501953,
+          "calls": 39
+        },
+        "full_frontier_update": {
+          "total_time": 63.06081438064575,
+          "calls": 33
+        },
+        "sam": {
+          "total_time": 29.312371730804443,
+          "calls": 27
+        },
+        "move_habitat": {
+          "total_time": 22.269050359725952,
+          "calls": 500
+        },
+        "read_habitat": {
+          "total_time": 1.534686803817749,
+          "calls": 967
+        }
+      },
+      "video_export_seconds": 7.161815576022491
+    },
+    "telemetry_path": "/home/chenhongyuan/projects/openfrontier/output/baseline_a_120_20261102_235157/baseline_a_120_sam3_internvl3_5_internvl3_5/a8BtkwhxdRV/failure/episode-1-toilet-continue_navigation/episode_telemetry.json"
+  },
+  {
+    "identity": {
+      "source_index": 3,
+      "original_episode_id": "3",
+      "habitat_episode_id_after_loading": "0",
+      "category": "bed",
+      "a_runtime_id": "0",
+      "scene": "bCPU9suPUw9"
+    },
+    "metrics": {
+      "episode": "0",
+      "success": "1.0",
+      "spl": "0.5567217562942118",
+      "distance_to_goal": "0.018778923898935318",
+      "object_goal": "bed",
+      "termination_reason": "object_found"
+    },
+    "telemetry": {
+      "scene": "bCPU9suPUw9",
+      "habitat_episode_id": "0",
+      "benchmark_episode": 0,
+      "original_episode_id": "3",
+      "object_category": "bed",
+      "vlm": {
+        "frontier": {
+          "calls": 6,
+          "seconds": 32.03231086698361,
+          "parse_failures": 2,
+          "exceptions": 0,
+          "calls_by_step": {
+            "7": 1,
+            "12": 3,
+            "19": 1,
+            "31": 1
+          }
+        },
+        "verification": {
+          "calls": 1,
+          "seconds": 3.7183158029802144,
+          "parse_failures": 0,
+          "exceptions": 0,
+          "calls_by_step": {
+            "36": 1
+          }
+        }
+      },
+      "http": {
+        "sam3/sam3": {
+          "requests": 6,
+          "seconds": 4.072343238629401,
+          "errors": 0
+        },
+        "vlm/frontier": {
+          "requests": 6,
+          "seconds": 31.17040571803227,
+          "errors": 0
+        },
+        "vlm/verification": {
+          "requests": 1,
+          "seconds": 3.3735570698045194,
+          "errors": 0
+        }
+      },
+      "navigation_seconds": 55.7422166778706,
+      "models": {
+        "segmentation_source": "sam3",
+        "probabilities_source": "InternVL3_5-4B",
+        "detection_source": "InternVL3_5-4B"
+      },
+      "agent_seconds_before_video_export": 62.928054532036185,
+      "navigation_steps": 36,
+      "builtin_timings": {
+        "frontier_detection_step": {
+          "total_time": 1.6443171501159668,
+          "calls": 8
+        },
+        "frontier_detection_global": {
+          "total_time": 1.645484447479248,
+          "calls": 37
+        },
+        "vlm_probabilities": {
+          "total_time": 32.08288025856018,
+          "calls": 4
+        },
+        "vlm_call": {
+          "total_time": 35.750734090805054,
+          "calls": 7
+        },
+        "total_segmentation": {
+          "total_time": 8.205301761627197,
+          "calls": 6
+        },
+        "mapping_update": {
+          "total_time": 4.517163276672363,
+          "calls": 6
+        },
+        "frontier_update_no_som": {
+          "total_time": 1.7002599239349365,
+          "calls": 8
+        },
+        "frontier_manager_update": {
+          "total_time": 0.8552567958831787,
+          "calls": 41
+        },
+        "pointnav_planning": {
+          "total_time": 0.39058732986450195,
+          "calls": 37
+        },
+        "navigation_time": {
+          "total_time": 51.94761681556702,
+          "calls": 36
+        },
+        "navigation_time_no_ai": {
+          "total_time": 10.196127891540527,
+          "calls": 36
+        },
+        "navigation_time_no_map": {
+          "total_time": 47.43045353889465,
+          "calls": 36
+        },
+        "navigation_time_no_ai_no_map": {
+          "total_time": 5.678964614868164,
+          "calls": 36
+        },
+        "move_time": {
+          "total_time": 4.0556910037994385,
+          "calls": 35
+        },
+        "rotate_time": {
+          "total_time": 0.12348270416259766,
+          "calls": 1
+        },
+        "full_frontier_update": {
+          "total_time": 33.78314018249512,
+          "calls": 8
+        },
+        "sam": {
+          "total_time": 7.968348741531372,
+          "calls": 6
+        },
+        "move_habitat": {
+          "total_time": 4.086318731307983,
+          "calls": 36
+        },
+        "read_habitat": {
+          "total_time": 0.1053767204284668,
+          "calls": 73
+        }
+      },
+      "video_export_seconds": 1.7880497120786458
+    },
+    "telemetry_path": "/home/chenhongyuan/projects/openfrontier/output/baseline_a_120_20261102_235157/baseline_a_120_sam3_internvl3_5_internvl3_5/bCPU9suPUw9/success/episode-0-bed/episode_telemetry.json"
+  },
+  {
+    "identity": {
+      "source_index": 6,
+      "original_episode_id": "3",
+      "habitat_episode_id_after_loading": "0",
+      "category": "plant",
+      "a_runtime_id": "0",
+      "scene": "bxsVRursffK"
+    },
+    "metrics": {
+      "episode": "0",
+      "success": "1.0",
+      "spl": "0.5342567029478588",
+      "distance_to_goal": "0.05925091728568077",
+      "object_goal": "plant",
+      "termination_reason": "object_found"
+    },
+    "telemetry": {
+      "scene": "bxsVRursffK",
+      "habitat_episode_id": "0",
+      "benchmark_episode": 0,
+      "original_episode_id": "3",
+      "object_category": "plant",
+      "vlm": {
+        "frontier": {
+          "calls": 10,
+          "seconds": 54.56209436408244,
+          "parse_failures": 1,
+          "exceptions": 0,
+          "calls_by_step": {
+            "0": 1,
+            "1": 1,
+            "21": 1,
+            "25": 2,
+            "31": 1,
+            "37": 1,
+            "43": 1,
+            "49": 1,
+            "55": 1
+          }
+        },
+        "verification": {
+          "calls": 1,
+          "seconds": 3.9455369289498776,
+          "parse_failures": 0,
+          "exceptions": 0,
+          "calls_by_step": {
+            "88": 1
+          }
+        }
+      },
+      "http": {
+        "vlm/frontier": {
+          "requests": 10,
+          "seconds": 53.22609123587608,
+          "errors": 0
+        },
+        "sam3/sam3": {
+          "requests": 14,
+          "seconds": 9.18630892620422,
+          "errors": 0
+        },
+        "vlm/verification": {
+          "requests": 1,
+          "seconds": 3.3308998849242926,
+          "errors": 0
+        }
+      },
+      "navigation_seconds": 107.29220975446515,
+      "models": {
+        "segmentation_source": "sam3",
+        "probabilities_source": "InternVL3_5-4B",
+        "detection_source": "InternVL3_5-4B"
+      },
+      "agent_seconds_before_video_export": 120.57869213796221,
+      "navigation_steps": 88,
+      "builtin_timings": {
+        "frontier_detection_step": {
+          "total_time": 3.6199584007263184,
+          "calls": 17
+        },
+        "frontier_detection_global": {
+          "total_time": 3.622349739074707,
+          "calls": 89
+        },
+        "vlm_probabilities": {
+          "total_time": 54.68148612976074,
+          "calls": 9
+        },
+        "vlm_call": {
+          "total_time": 58.50780653953552,
+          "calls": 11
+        },
+        "total_segmentation": {
+          "total_time": 17.623260259628296,
+          "calls": 14
+        },
+        "mapping_update": {
+          "total_time": 11.253876447677612,
+          "calls": 14
+        },
+        "frontier_update_no_som": {
+          "total_time": 3.8343331813812256,
+          "calls": 17
+        },
+        "frontier_manager_update": {
+          "total_time": 4.267200231552124,
+          "calls": 98
+        },
+        "pointnav_planning": {
+          "total_time": 2.50418758392334,
+          "calls": 89
+        },
+        "navigation_time": {
+          "total_time": 103.12587761878967,
+          "calls": 88
+        },
+        "navigation_time_no_ai": {
+          "total_time": 27.29312491416931,
+          "calls": 88
+        },
+        "navigation_time_no_map": {
+          "total_time": 91.87200117111206,
+          "calls": 88
+        },
+        "navigation_time_no_ai_no_map": {
+          "total_time": 16.0392484664917,
+          "calls": 88
+        },
+        "move_time": {
+          "total_time": 8.82169771194458,
+          "calls": 87
+        },
+        "rotate_time": {
+          "total_time": 0.21566510200500488,
+          "calls": 2
+        },
+        "full_frontier_update": {
+          "total_time": 58.51581931114197,
+          "calls": 17
+        },
+        "sam": {
+          "total_time": 17.316933393478394,
+          "calls": 14
+        },
+        "move_habitat": {
+          "total_time": 8.802051544189453,
+          "calls": 89
+        },
+        "read_habitat": {
+          "total_time": 0.25670623779296875,
+          "calls": 178
+        }
+      },
+      "video_export_seconds": 3.4517322320025414
+    },
+    "telemetry_path": "/home/chenhongyuan/projects/openfrontier/output/baseline_a_120_20261102_235157/baseline_a_120_sam3_internvl3_5_internvl3_5/bxsVRursffK/success/episode-0-plant/episode_telemetry.json"
+  },
+  {
+    "identity": {
+      "source_index": 27,
+      "original_episode_id": "3",
+      "habitat_episode_id_after_loading": "0",
+      "category": "bed",
+      "a_runtime_id": "3",
+      "scene": "cvZr5TUy5C5"
+    },
+    "metrics": {
+      "episode": "3",
+      "success": "1.0",
+      "spl": "0.7654808559765077",
+      "distance_to_goal": "0.03772493079304695",
+      "object_goal": "bed",
+      "termination_reason": "object_found"
+    },
+    "telemetry": {
+      "scene": "cvZr5TUy5C5",
+      "habitat_episode_id": "3",
+      "benchmark_episode": 3,
+      "original_episode_id": "3",
+      "object_category": "bed",
+      "vlm": {
+        "frontier": {
+          "calls": 4,
+          "seconds": 19.13998967781663,
+          "parse_failures": 0,
+          "exceptions": 0,
+          "calls_by_step": {
+            "1": 1,
+            "7": 1,
+            "13": 1,
+            "19": 1
+          }
+        },
+        "verification": {
+          "calls": 1,
+          "seconds": 3.684262563008815,
+          "parse_failures": 0,
+          "exceptions": 0,
+          "calls_by_step": {
+            "27": 1
+          }
+        }
+      },
+      "http": {
+        "vlm/frontier": {
+          "requests": 4,
+          "seconds": 18.67569257807918,
+          "errors": 0
+        },
+        "sam3/sam3": {
+          "requests": 4,
+          "seconds": 3.114201447693631,
+          "errors": 0
+        },
+        "vlm/verification": {
+          "requests": 1,
+          "seconds": 3.087356765056029,
+          "errors": 0
+        }
+      },
+      "navigation_seconds": 35.819157434860244,
+      "models": {
+        "segmentation_source": "sam3",
+        "probabilities_source": "InternVL3_5-4B",
+        "detection_source": "InternVL3_5-4B"
+      },
+      "agent_seconds_before_video_export": 41.17609082907438,
+      "navigation_steps": 27,
+      "builtin_timings": {
+        "frontier_detection_step": {
+          "total_time": 1.266768217086792,
+          "calls": 6
+        },
+        "frontier_detection_global": {
+          "total_time": 1.267472505569458,
+          "calls": 28
+        },
+        "vlm_probabilities": {
+          "total_time": 19.19023084640503,
+          "calls": 4
+        },
+        "vlm_call": {
+          "total_time": 22.82434844970703,
+          "calls": 5
+        },
+        "total_segmentation": {
+          "total_time": 6.2009804248809814,
+          "calls": 4
+        },
+        "mapping_update": {
+          "total_time": 3.1936631202697754,
+          "calls": 4
+        },
+        "frontier_update_no_som": {
+          "total_time": 1.3188533782958984,
+          "calls": 6
+        },
+        "frontier_manager_update": {
+          "total_time": 0.9433457851409912,
+          "calls": 33
+        },
+        "pointnav_planning": {
+          "total_time": 0.5242371559143066,
+          "calls": 28
+        },
+        "navigation_time": {
+          "total_time": 32.05646061897278,
+          "calls": 27
+        },
+        "navigation_time_no_ai": {
+          "total_time": 5.5422492027282715,
+          "calls": 27
+        },
+        "navigation_time_no_map": {
+          "total_time": 28.862797498703003,
+          "calls": 27
+        },
+        "navigation_time_no_ai_no_map": {
+          "total_time": 2.348586082458496,
+          "calls": 27
+        },
+        "move_time": {
+          "total_time": 0.7029225826263428,
+          "calls": 27
+        },
+        "rotate_time": {
+          "total_time": 0.0,
+          "calls": 0
+        },
+        "full_frontier_update": {
+          "total_time": 20.509084224700928,
+          "calls": 6
+        },
+        "sam": {
+          "total_time": 6.005127191543579,
+          "calls": 4
+        },
+        "move_habitat": {
+          "total_time": 0.6358675956726074,
+          "calls": 27
+        },
+        "read_habitat": {
+          "total_time": 0.08425045013427734,
+          "calls": 55
+        }
+      },
+      "video_export_seconds": 1.4228412061929703
+    },
+    "telemetry_path": "/home/chenhongyuan/projects/openfrontier/output/baseline_a_120_20261102_235157/baseline_a_120_sam3_internvl3_5_internvl3_5/cvZr5TUy5C5/success/episode-3-bed/episode_telemetry.json"
+  },
+  {
+    "identity": {
+      "source_index": 10,
+      "original_episode_id": "1",
+      "habitat_episode_id_after_loading": "0",
+      "category": "bed",
+      "a_runtime_id": "2",
+      "scene": "p53SfW6mjZe"
+    },
+    "metrics": {
+      "episode": "2",
+      "success": "0.0",
+      "spl": "0.0",
+      "distance_to_goal": "5.738418102264404",
+      "object_goal": "bed",
+      "termination_reason": "false_positive"
+    },
+    "telemetry": {
+      "scene": "p53SfW6mjZe",
+      "habitat_episode_id": "2",
+      "benchmark_episode": 2,
+      "original_episode_id": "1",
+      "object_category": "bed",
+      "vlm": {
+        "frontier": {
+          "calls": 32,
+          "seconds": 244.59065241669305,
+          "parse_failures": 30,
+          "exceptions": 0,
+          "calls_by_step": {
+            "1": 1,
+            "7": 10,
+            "13": 10,
+            "19": 1,
+            "31": 10
+          }
+        },
+        "verification": {
+          "calls": 1,
+          "seconds": 3.4281864101067185,
+          "parse_failures": 0,
+          "exceptions": 0,
+          "calls_by_step": {
+            "50": 1
+          }
+        }
+      },
+      "http": {
+        "vlm/frontier": {
+          "requests": 32,
+          "seconds": 239.21611977508292,
+          "errors": 0
+        },
+        "sam3/sam3": {
+          "requests": 8,
+          "seconds": 5.003461927641183,
+          "errors": 0
+        },
+        "vlm/verification": {
+          "requests": 1,
+          "seconds": 2.8764850650914013,
+          "errors": 0
+        }
+      },
+      "navigation_seconds": 277.16916720056906,
+      "models": {
+        "segmentation_source": "sam3",
+        "probabilities_source": "InternVL3_5-4B",
+        "detection_source": "InternVL3_5-4B"
+      },
+      "agent_seconds_before_video_export": 288.6404412819538,
+      "navigation_steps": 84,
+      "builtin_timings": {
+        "frontier_detection_step": {
+          "total_time": 2.46962308883667,
+          "calls": 10
+        },
+        "frontier_detection_global": {
+          "total_time": 2.4709231853485107,
+          "calls": 85
+        },
+        "vlm_probabilities": {
+          "total_time": 244.69891548156738,
+          "calls": 5
+        },
+        "vlm_call": {
+          "total_time": 248.01928615570068,
+          "calls": 33
+        },
+        "total_segmentation": {
+          "total_time": 9.672023296356201,
+          "calls": 8
+        },
+        "mapping_update": {
+          "total_time": 9.849280834197998,
+          "calls": 14
+        },
+        "frontier_update_no_som": {
+          "total_time": 2.7462046146392822,
+          "calls": 10
+        },
+        "frontier_manager_update": {
+          "total_time": 2.9783425331115723,
+          "calls": 93
+        },
+        "pointnav_planning": {
+          "total_time": 2.416311025619507,
+          "calls": 85
+        },
+        "navigation_time": {
+          "total_time": 277.0451467037201,
+          "calls": 84
+        },
+        "navigation_time_no_ai": {
+          "total_time": 20.148378372192383,
+          "calls": 84
+        },
+        "navigation_time_no_map": {
+          "total_time": 267.1958658695221,
+          "calls": 84
+        },
+        "navigation_time_no_ai_no_map": {
+          "total_time": 10.299097537994385,
+          "calls": 84
+        },
+        "move_time": {
+          "total_time": 1.3241565227508545,
+          "calls": 84
+        },
+        "rotate_time": {
+          "total_time": 0.02797698974609375,
+          "calls": 2
+        },
+        "full_frontier_update": {
+          "total_time": 247.44512009620667,
+          "calls": 10
+        },
+        "sam": {
+          "total_time": 9.451648235321045,
+          "calls": 8
+        },
+        "move_habitat": {
+          "total_time": 1.1552531719207764,
+          "calls": 86
+        },
+        "read_habitat": {
+          "total_time": 0.22222614288330078,
+          "calls": 171
+        }
+      },
+      "video_export_seconds": 2.1541443888563663
+    },
+    "telemetry_path": "/home/chenhongyuan/projects/openfrontier/output/baseline_a_120_20261102_235157/baseline_a_120_sam3_internvl3_5_internvl3_5/p53SfW6mjZe/failure/episode-2-bed-false_positive/episode_telemetry.json"
+  },
+  {
+    "identity": {
+      "source_index": 13,
+      "original_episode_id": "0",
+      "habitat_episode_id_after_loading": "0",
+      "category": "tv_monitor",
+      "a_runtime_id": "1",
+      "scene": "q5QZSEeHe5g"
+    },
+    "metrics": {
+      "episode": "1",
+      "success": "1.0",
+      "spl": "0.36807932007189764",
+      "distance_to_goal": "0.13214106857776642",
+      "object_goal": "tv_monitor",
+      "termination_reason": "object_found"
+    },
+    "telemetry": {
+      "scene": "q5QZSEeHe5g",
+      "habitat_episode_id": "1",
+      "benchmark_episode": 1,
+      "original_episode_id": "0",
+      "object_category": "tv_monitor",
+      "vlm": {
+        "frontier": {
+          "calls": 35,
+          "seconds": 213.01747504528612,
+          "parse_failures": 12,
+          "exceptions": 0,
+          "calls_by_step": {
+            "0": 1,
+            "13": 1,
+            "19": 1,
+            "25": 2,
+            "31": 1,
+            "43": 1,
+            "55": 1,
+            "79": 1,
+            "85": 1,
+            "91": 1,
+            "96": 1,
+            "97": 1,
+            "127": 1,
+            "151": 2,
+            "157": 1,
+            "169": 1,
+            "181": 1,
+            "187": 1,
+            "205": 1,
+            "223": 10,
+            "229": 1,
+            "241": 1,
+            "247": 1,
+            "253": 1
+          }
+        },
+        "verification": {
+          "calls": 1,
+          "seconds": 3.834060298046097,
+          "parse_failures": 0,
+          "exceptions": 0,
+          "calls_by_step": {
+            "266": 1
+          }
+        }
+      },
+      "http": {
+        "vlm/frontier": {
+          "requests": 35,
+          "seconds": 207.8050953245256,
+          "errors": 0
+        },
+        "sam3/sam3": {
+          "requests": 44,
+          "seconds": 30.715259910328314,
+          "errors": 0
+        },
+        "vlm/verification": {
+          "requests": 1,
+          "seconds": 3.2086846891324967,
+          "errors": 0
+        }
+      },
+      "navigation_seconds": 370.359126299154,
+      "models": {
+        "segmentation_source": "sam3",
+        "probabilities_source": "InternVL3_5-4B",
+        "detection_source": "InternVL3_5-4B"
+      },
+      "agent_seconds_before_video_export": 401.95548887504265,
+      "navigation_steps": 267,
+      "builtin_timings": {
+        "frontier_detection_step": {
+          "total_time": 11.337820768356323,
+          "calls": 48
+        },
+        "frontier_detection_global": {
+          "total_time": 11.344454526901245,
+          "calls": 268
+        },
+        "vlm_probabilities": {
+          "total_time": 213.38237357139587,
+          "calls": 24
+        },
+        "vlm_call": {
+          "total_time": 216.85215759277344,
+          "calls": 36
+        },
+        "total_segmentation": {
+          "total_time": 58.52111268043518,
+          "calls": 44
+        },
+        "mapping_update": {
+          "total_time": 36.56254768371582,
+          "calls": 44
+        },
+        "frontier_update_no_som": {
+          "total_time": 14.183732271194458,
+          "calls": 48
+        },
+        "frontier_manager_update": {
+          "total_time": 27.508737564086914,
+          "calls": 302
+        },
+        "pointnav_planning": {
+          "total_time": 7.622636795043945,
+          "calls": 268
+        },
+        "navigation_time": {
+          "total_time": 369.33229422569275,
+          "calls": 267
+        },
+        "navigation_time_no_ai": {
+          "total_time": 83.94898104667664,
+          "calls": 267
+        },
+        "navigation_time_no_map": {
+          "total_time": 332.76974654197693,
+          "calls": 267
+        },
+        "navigation_time_no_ai_no_map": {
+          "total_time": 47.386433362960815,
+          "calls": 267
+        },
+        "move_time": {
+          "total_time": 9.9201340675354,
+          "calls": 265
+        },
+        "rotate_time": {
+          "total_time": 0.03332400321960449,
+          "calls": 1
+        },
+        "full_frontier_update": {
+          "total_time": 227.56610584259033,
+          "calls": 48
+        },
+        "sam": {
+          "total_time": 57.81720733642578,
+          "calls": 44
+        },
+        "move_habitat": {
+          "total_time": 9.212004661560059,
+          "calls": 266
+        },
+        "read_habitat": {
+          "total_time": 0.9142770767211914,
+          "calls": 534
+        }
+      },
+      "video_export_seconds": 4.697215070016682
+    },
+    "telemetry_path": "/home/chenhongyuan/projects/openfrontier/output/baseline_a_120_20261102_235157/baseline_a_120_sam3_internvl3_5_internvl3_5/q5QZSEeHe5g/success/episode-1-tv_monitor/episode_telemetry.json"
+  },
+  {
+    "identity": {
+      "source_index": 12,
+      "original_episode_id": "1",
+      "habitat_episode_id_after_loading": "0",
+      "category": "sofa",
+      "a_runtime_id": "1",
+      "scene": "svBbv1Pavdk"
+    },
+    "metrics": {
+      "episode": "1",
+      "success": "1.0",
+      "spl": "0.18088137411501262",
+      "distance_to_goal": "0.05178486928343773",
+      "object_goal": "sofa",
+      "termination_reason": "object_found"
+    },
+    "telemetry": {
+      "scene": "svBbv1Pavdk",
+      "habitat_episode_id": "1",
+      "benchmark_episode": 1,
+      "original_episode_id": "1",
+      "object_category": "sofa",
+      "vlm": {
+        "frontier": {
+          "calls": 53,
+          "seconds": 306.0464962506667,
+          "parse_failures": 18,
+          "exceptions": 0,
+          "calls_by_step": {
+            "1": 2,
+            "13": 1,
+            "19": 1,
+            "30": 1,
+            "49": 1,
+            "55": 1,
+            "61": 1,
+            "67": 1,
+            "72": 2,
+            "73": 1,
+            "79": 1,
+            "85": 1,
+            "91": 6,
+            "97": 7,
+            "103": 1,
+            "109": 1,
+            "121": 1,
+            "127": 1,
+            "133": 1,
+            "139": 1,
+            "145": 1,
+            "151": 1,
+            "157": 1,
+            "163": 1,
+            "169": 1,
+            "187": 1,
+            "193": 1,
+            "199": 1,
+            "235": 1,
+            "253": 1,
+            "259": 2,
+            "265": 1,
+            "271": 1,
+            "283": 1,
+            "289": 5
+          }
+        },
+        "verification": {
+          "calls": 1,
+          "seconds": 3.8313985380809754,
+          "parse_failures": 0,
+          "exceptions": 0,
+          "calls_by_step": {
+            "293": 1
+          }
+        }
+      },
+      "http": {
+        "vlm/frontier": {
+          "requests": 53,
+          "seconds": 298.11249590525404,
+          "errors": 0
+        },
+        "sam3/sam3": {
+          "requests": 49,
+          "seconds": 33.89486266532913,
+          "errors": 0
+        },
+        "vlm/verification": {
+          "requests": 1,
+          "seconds": 3.2280161299277097,
+          "errors": 0
+        }
+      },
+      "navigation_seconds": 475.83205397007987,
+      "models": {
+        "segmentation_source": "sam3",
+        "probabilities_source": "InternVL3_5-4B",
+        "detection_source": "InternVL3_5-4B"
+      },
+      "agent_seconds_before_video_export": 509.7010529169347,
+      "navigation_steps": 293,
+      "builtin_timings": {
+        "frontier_detection_step": {
+          "total_time": 12.32265830039978,
+          "calls": 53
+        },
+        "frontier_detection_global": {
+          "total_time": 12.32951307296753,
+          "calls": 294
+        },
+        "vlm_probabilities": {
+          "total_time": 306.50869631767273,
+          "calls": 35
+        },
+        "vlm_call": {
+          "total_time": 309.8787488937378,
+          "calls": 54
+        },
+        "total_segmentation": {
+          "total_time": 62.68244981765747,
+          "calls": 49
+        },
+        "mapping_update": {
+          "total_time": 40.45039391517639,
+          "calls": 49
+        },
+        "frontier_update_no_som": {
+          "total_time": 15.39763355255127,
+          "calls": 53
+        },
+        "frontier_manager_update": {
+          "total_time": 27.279906511306763,
+          "calls": 334
+        },
+        "pointnav_planning": {
+          "total_time": 7.6372389793396,
+          "calls": 294
+        },
+        "navigation_time": {
+          "total_time": 468.3229010105133,
+          "calls": 293
+        },
+        "navigation_time_no_ai": {
+          "total_time": 86.08513355255127,
+          "calls": 293
+        },
+        "navigation_time_no_map": {
+          "total_time": 428.7933201789856,
+          "calls": 293
+        },
+        "navigation_time_no_ai_no_map": {
+          "total_time": 46.55555272102356,
+          "calls": 293
+        },
+        "move_time": {
+          "total_time": 13.513377666473389,
+          "calls": 290
+        },
+        "rotate_time": {
+          "total_time": 0.04564404487609863,
+          "calls": 1
+        },
+        "full_frontier_update": {
+          "total_time": 321.906329870224,
+          "calls": 53
+        },
+        "sam": {
+          "total_time": 61.96106505393982,
+          "calls": 49
+        },
+        "move_habitat": {
+          "total_time": 12.85304880142212,
+          "calls": 291
+        },
+        "read_habitat": {
+          "total_time": 0.7492167949676514,
+          "calls": 585
+        }
+      },
+      "video_export_seconds": 3.933384733973071
+    },
+    "telemetry_path": "/home/chenhongyuan/projects/openfrontier/output/baseline_a_120_20261102_235157/baseline_a_120_sam3_internvl3_5_internvl3_5/svBbv1Pavdk/success/episode-1-sofa/episode_telemetry.json"
+  },
+  {
+    "identity": {
+      "source_index": 18,
+      "original_episode_id": "1",
+      "habitat_episode_id_after_loading": "0",
+      "category": "toilet",
+      "a_runtime_id": "0",
+      "scene": "y9hTuugGdiq"
+    },
+    "metrics": {
+      "episode": "0",
+      "success": "1.0",
+      "spl": "0.23822310584098405",
+      "distance_to_goal": "0.0315607488155365",
+      "object_goal": "toilet",
+      "termination_reason": "object_found"
+    },
+    "telemetry": {
+      "scene": "y9hTuugGdiq",
+      "habitat_episode_id": "0",
+      "benchmark_episode": 0,
+      "original_episode_id": "1",
+      "object_category": "toilet",
+      "vlm": {
+        "frontier": {
+          "calls": 25,
+          "seconds": 117.48890045750886,
+          "parse_failures": 2,
+          "exceptions": 0,
+          "calls_by_step": {
+            "1": 1,
+            "13": 1,
+            "19": 1,
+            "25": 1,
+            "37": 1,
+            "43": 3,
+            "49": 1,
+            "55": 1,
+            "61": 1,
+            "97": 1,
+            "115": 1,
+            "145": 1,
+            "155": 1,
+            "157": 1,
+            "175": 1,
+            "187": 1,
+            "205": 1,
+            "217": 1,
+            "223": 1,
+            "240": 1,
+            "241": 1,
+            "247": 1,
+            "253": 1
+          }
+        },
+        "verification": {
+          "calls": 1,
+          "seconds": 3.8232943108305335,
+          "parse_failures": 0,
+          "exceptions": 0,
+          "calls_by_step": {
+            "265": 1
+          }
+        }
+      },
+      "http": {
+        "vlm/frontier": {
+          "requests": 25,
+          "seconds": 113.07657793397084,
+          "errors": 0
+        },
+        "sam3/sam3": {
+          "requests": 44,
+          "seconds": 28.601543720113114,
+          "errors": 0
+        },
+        "vlm/verification": {
+          "requests": 1,
+          "seconds": 3.210773709928617,
+          "errors": 0
+        }
+      },
+      "navigation_seconds": 265.363248456968,
+      "models": {
+        "segmentation_source": "sam3",
+        "probabilities_source": "InternVL3_5-4B",
+        "detection_source": "InternVL3_5-4B"
+      },
+      "agent_seconds_before_video_export": 309.3729110478889,
+      "navigation_steps": 265,
+      "builtin_timings": {
+        "frontier_detection_step": {
+          "total_time": 10.672148704528809,
+          "calls": 50
+        },
+        "frontier_detection_global": {
+          "total_time": 10.678906440734863,
+          "calls": 266
+        },
+        "vlm_probabilities": {
+          "total_time": 117.78256702423096,
+          "calls": 23
+        },
+        "vlm_call": {
+          "total_time": 121.31262683868408,
+          "calls": 26
+        },
+        "total_segmentation": {
+          "total_time": 53.09148192405701,
+          "calls": 44
+        },
+        "mapping_update": {
+          "total_time": 33.379979610443115,
+          "calls": 44
+        },
+        "frontier_update_no_som": {
+          "total_time": 12.661809206008911,
+          "calls": 50
+        },
+        "frontier_manager_update": {
+          "total_time": 20.135170459747314,
+          "calls": 304
+        },
+        "pointnav_planning": {
+          "total_time": 7.41238260269165,
+          "calls": 266
+        },
+        "navigation_time": {
+          "total_time": 260.52833008766174,
+          "calls": 265
+        },
+        "navigation_time_no_ai": {
+          "total_time": 77.94295930862427,
+          "calls": 265
+        },
+        "navigation_time_no_map": {
+          "total_time": 227.14835047721863,
+          "calls": 265
+        },
+        "navigation_time_no_ai_no_map": {
+          "total_time": 44.56297969818115,
+          "calls": 265
+        },
+        "move_time": {
+          "total_time": 17.09011745452881,
+          "calls": 261
+        },
+        "rotate_time": {
+          "total_time": 0.5609445571899414,
+          "calls": 9
+        },
+        "full_frontier_update": {
+          "total_time": 130.44437623023987,
+          "calls": 50
+        },
+        "sam": {
+          "total_time": 52.341652154922485,
+          "calls": 44
+        },
+        "move_habitat": {
+          "total_time": 16.923219680786133,
+          "calls": 270
+        },
+        "read_habitat": {
+          "total_time": 0.8451025485992432,
+          "calls": 536
+        }
+      },
+      "video_export_seconds": 5.607306397985667
+    },
+    "telemetry_path": "/home/chenhongyuan/projects/openfrontier/output/baseline_a_120_20261102_235157/baseline_a_120_sam3_internvl3_5_internvl3_5/y9hTuugGdiq/success/episode-0-toilet/episode_telemetry.json"
+  },
+  {
+    "identity": {
+      "source_index": 23,
+      "original_episode_id": "2",
+      "habitat_episode_id_after_loading": "0",
+      "category": "tv_monitor",
+      "a_runtime_id": "1",
+      "scene": "yr17PDCnDDW"
+    },
+    "metrics": {
+      "episode": "1",
+      "success": "0.0",
+      "spl": "0.0",
+      "distance_to_goal": "6.990208625793457",
+      "object_goal": "tv_monitor",
+      "termination_reason": "false_positive"
+    },
+    "telemetry": {
+      "scene": "yr17PDCnDDW",
+      "habitat_episode_id": "1",
+      "benchmark_episode": 1,
+      "original_episode_id": "2",
+      "object_category": "tv_monitor",
+      "vlm": {
+        "frontier": {
+          "calls": 91,
+          "seconds": 643.9005060535856,
+          "parse_failures": 60,
+          "exceptions": 0,
+          "calls_by_step": {
+            "0": 5,
+            "1": 1,
+            "7": 1,
+            "13": 1,
+            "31": 1,
+            "37": 1,
+            "43": 1,
+            "49": 7,
+            "55": 1,
+            "61": 1,
+            "67": 2,
+            "73": 1,
+            "79": 10,
+            "85": 1,
+            "91": 4,
+            "97": 1,
+            "103": 1,
+            "109": 7,
+            "115": 1,
+            "121": 2,
+            "127": 1,
+            "133": 1,
+            "139": 10,
+            "145": 1,
+            "151": 1,
+            "157": 1,
+            "163": 10,
+            "169": 1,
+            "170": 1,
+            "181": 1,
+            "187": 1,
+            "193": 2,
+            "199": 9,
+            "205": 1
+          }
+        },
+        "verification": {
+          "calls": 1,
+          "seconds": 3.5189356170594692,
+          "parse_failures": 0,
+          "exceptions": 0,
+          "calls_by_step": {
+            "209": 1
+          }
+        }
+      },
+      "http": {
+        "vlm/frontier": {
+          "requests": 91,
+          "seconds": 629.8665903797373,
+          "errors": 0
+        },
+        "sam3/sam3": {
+          "requests": 35,
+          "seconds": 23.492244626628235,
+          "errors": 0
+        },
+        "vlm/verification": {
+          "requests": 1,
+          "seconds": 2.925139212049544,
+          "errors": 0
+        }
+      },
+      "navigation_seconds": 810.5601773697417,
+      "models": {
+        "segmentation_source": "sam3",
+        "probabilities_source": "InternVL3_5-4B",
+        "detection_source": "InternVL3_5-4B"
+      },
+      "agent_seconds_before_video_export": 833.1918461378664,
+      "navigation_steps": 209,
+      "builtin_timings": {
+        "frontier_detection_step": {
+          "total_time": 11.318691730499268,
+          "calls": 38
+        },
+        "frontier_detection_global": {
+          "total_time": 11.323405981063843,
+          "calls": 210
+        },
+        "vlm_probabilities": {
+          "total_time": 644.4520108699799,
+          "calls": 34
+        },
+        "vlm_call": {
+          "total_time": 647.4208648204803,
+          "calls": 92
+        },
+        "total_segmentation": {
+          "total_time": 45.611178159713745,
+          "calls": 35
+        },
+        "mapping_update": {
+          "total_time": 28.634252786636353,
+          "calls": 35
+        },
+        "frontier_update_no_som": {
+          "total_time": 19.73401117324829,
+          "calls": 38
+        },
+        "frontier_manager_update": {
+          "total_time": 66.10261487960815,
+          "calls": 246
+        },
+        "pointnav_planning": {
+          "total_time": 5.479551553726196,
+          "calls": 210
+        },
+        "navigation_time": {
+          "total_time": 803.5512583255768,
+          "calls": 209
+        },
+        "navigation_time_no_ai": {
+          "total_time": 95.31069564819336,
+          "calls": 209
+        },
+        "navigation_time_no_map": {
+          "total_time": 775.8476264476776,
+          "calls": 209
+        },
+        "navigation_time_no_ai_no_map": {
+          "total_time": 67.60706377029419,
+          "calls": 209
+        },
+        "move_time": {
+          "total_time": 4.068179607391357,
+          "calls": 206
+        },
+        "rotate_time": {
+          "total_time": 0.1126251220703125,
+          "calls": 6
+        },
+        "full_frontier_update": {
+          "total_time": 664.1860220432281,
+          "calls": 38
+        },
+        "sam": {
+          "total_time": 45.15994215011597,
+          "calls": 35
+        },
+        "move_habitat": {
+          "total_time": 3.650026321411133,
+          "calls": 212
+        },
+        "read_habitat": {
+          "total_time": 0.5806546211242676,
+          "calls": 422
+        }
+      },
+      "video_export_seconds": 3.2625521670561284
+    },
+    "telemetry_path": "/home/chenhongyuan/projects/openfrontier/output/baseline_a_120_20261102_235157/baseline_a_120_sam3_internvl3_5_internvl3_5/yr17PDCnDDW/failure/episode-1-tv_monitor-false_positive/episode_telemetry.json"
+  },
+  {
+    "identity": {
+      "source_index": 20,
+      "original_episode_id": "2",
+      "habitat_episode_id_after_loading": "0",
+      "category": "plant",
+      "a_runtime_id": "2",
+      "scene": "ziup5kvtCCR"
+    },
+    "metrics": {
+      "episode": "2",
+      "success": "1.0",
+      "spl": "0.2568367253413663",
+      "distance_to_goal": "0.0331730954349041",
+      "object_goal": "plant",
+      "termination_reason": "object_found"
+    },
+    "telemetry": {
+      "scene": "ziup5kvtCCR",
+      "habitat_episode_id": "2",
+      "benchmark_episode": 2,
+      "original_episode_id": "2",
+      "object_category": "plant",
+      "vlm": {
+        "frontier": {
+          "calls": 21,
+          "seconds": 116.2543815379031,
+          "parse_failures": 4,
+          "exceptions": 0,
+          "calls_by_step": {
+            "7": 2,
+            "13": 1,
+            "19": 1,
+            "25": 2,
+            "31": 1,
+            "37": 1,
+            "43": 1,
+            "49": 1,
+            "55": 1,
+            "61": 1,
+            "67": 1,
+            "73": 2,
+            "79": 1,
+            "85": 1,
+            "91": 1,
+            "97": 2,
+            "109": 1
+          }
+        },
+        "verification": {
+          "calls": 1,
+          "seconds": 3.565572129096836,
+          "parse_failures": 0,
+          "exceptions": 0,
+          "calls_by_step": {
+            "113": 1
+          }
+        }
+      },
+      "http": {
+        "sam3/sam3": {
+          "requests": 19,
+          "seconds": 13.76198959024623,
+          "errors": 0
+        },
+        "vlm/frontier": {
+          "requests": 21,
+          "seconds": 112.78158185328357,
+          "errors": 0
+        },
+        "vlm/verification": {
+          "requests": 1,
+          "seconds": 3.2018336409237236,
+          "errors": 0
+        }
+      },
+      "navigation_seconds": 183.96711324341595,
+      "models": {
+        "segmentation_source": "sam3",
+        "probabilities_source": "InternVL3_5-4B",
+        "detection_source": "InternVL3_5-4B"
+      },
+      "agent_seconds_before_video_export": 199.6626296211034,
+      "navigation_steps": 113,
+      "builtin_timings": {
+        "frontier_detection_step": {
+          "total_time": 5.130935192108154,
+          "calls": 20
+        },
+        "frontier_detection_global": {
+          "total_time": 5.133738279342651,
+          "calls": 114
+        },
+        "vlm_probabilities": {
+          "total_time": 116.49204611778259,
+          "calls": 17
+        },
+        "vlm_call": {
+          "total_time": 119.82034587860107,
+          "calls": 22
+        },
+        "total_segmentation": {
+          "total_time": 26.04576063156128,
+          "calls": 19
+        },
+        "mapping_update": {
+          "total_time": 14.884992361068726,
+          "calls": 19
+        },
+        "frontier_update_no_som": {
+          "total_time": 6.010548114776611,
+          "calls": 20
+        },
+        "frontier_manager_update": {
+          "total_time": 8.009600400924683,
+          "calls": 132
+        },
+        "pointnav_planning": {
+          "total_time": 4.175025463104248,
+          "calls": 114
+        },
+        "navigation_time": {
+          "total_time": 177.1230103969574,
+          "calls": 113
+        },
+        "navigation_time_no_ai": {
+          "total_time": 30.98655366897583,
+          "calls": 113
+        },
+        "navigation_time_no_map": {
+          "total_time": 163.13845562934875,
+          "calls": 113
+        },
+        "navigation_time_no_ai_no_map": {
+          "total_time": 17.001998901367188,
+          "calls": 113
+        },
+        "move_time": {
+          "total_time": 5.081284761428833,
+          "calls": 113
+        },
+        "rotate_time": {
+          "total_time": 0.03763079643249512,
+          "calls": 1
+        },
+        "full_frontier_update": {
+          "total_time": 122.5025942325592,
+          "calls": 20
+        },
+        "sam": {
+          "total_time": 25.567702293395996,
+          "calls": 19
+        },
+        "move_habitat": {
+          "total_time": 4.8117287158966064,
+          "calls": 114
+        },
+        "read_habitat": {
+          "total_time": 0.3444199562072754,
+          "calls": 228
+        }
+      },
+      "video_export_seconds": 3.2518803749699146
+    },
+    "telemetry_path": "/home/chenhongyuan/projects/openfrontier/output/baseline_a_120_20261102_235157/baseline_a_120_sam3_internvl3_5_internvl3_5/ziup5kvtCCR/success/episode-2-plant/episode_telemetry.json"
+  }
+]

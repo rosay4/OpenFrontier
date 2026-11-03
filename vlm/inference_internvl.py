@@ -4,6 +4,7 @@ import torchvision.transforms as T
 from torchvision.transforms.functional import InterpolationMode
 from transformers import AutoModel, AutoTokenizer
 from PIL import Image
+from pathlib import Path
 
 from vlm.inference_base import InferenceBase
 from vlm.models import VLMModel
@@ -19,10 +20,11 @@ class InferenceInternVL(InferenceBase):
                 f"Unsupported model for InferenceInternVL: {model_name.value}"
             )
 
-        path = "OpenGVLab/" + model_name.value
+        # path = "OpenGVLab/" + model_name.value
+        path = str(Path.home() / "models" / model_name.value)
 
         self.tokenizer = AutoTokenizer.from_pretrained(
-            path, trust_remote_code=True, use_fast=False
+            path, trust_remote_code=True, use_fast=False, local_files_only=True,
         )
 
         self.model = (
@@ -31,9 +33,9 @@ class InferenceInternVL(InferenceBase):
                 torch_dtype=torch.bfloat16,
                 load_in_8bit=False,
                 low_cpu_mem_usage=True,
-                use_flash_attn=True,
+                use_flash_attn=False,
                 trust_remote_code=True,
-                local_files_only=False,
+                local_files_only=True,
             )
             .cuda()
             .eval()
@@ -43,7 +45,10 @@ class InferenceInternVL(InferenceBase):
 
         self.generation_config = dict(max_new_tokens=200, do_sample=True)
 
-    def predict(self, image: Image.Image, prompt: str) -> str:
+    def predict(self, image: Image.Image, prompt: str, system_prompt: str = "none",) -> str:
+        if system_prompt != "none":
+            prompt = f"{system_prompt}\n\n{prompt}"
+
         image = self._load_image(image, max_num=12).to(torch.bfloat16).cuda()
 
         question = "<image>\n" + str(prompt)

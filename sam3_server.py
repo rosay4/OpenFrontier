@@ -25,7 +25,12 @@ if __name__ == "__main__":
             super().__init__()
 
             # Load the model
-            self.model = build_sam3_image_model(str(SAM3_BPE_PATH))
+            # self.model = build_sam3_image_model(str(SAM3_BPE_PATH))
+            self.model = build_sam3_image_model(
+                bpe_path=str(SAM3_BPE_PATH),
+                checkpoint_path=str(Path.home() / "models/sam3/sam3.pt"),
+                load_from_HF=False,
+            )
             self.processor = Sam3Processor(self.model)
             self.use_cuda_autocast = torch.cuda.is_available()
 

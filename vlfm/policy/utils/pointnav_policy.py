@@ -9,7 +9,7 @@ from gym import spaces
 from gym.spaces import Dict as SpaceDict
 from gym.spaces import Discrete
 from torch import Tensor
-from habitat.config.default import get_config
+from omegaconf import OmegaConf
 import sys
 import types
 
@@ -142,18 +142,18 @@ def load_pointnav_policy(file_path: str) -> PointNavResNetTensorOutputPolicy:
 
     ckpt_dict = torch.load(file_path, map_location="cpu", weights_only=False)
 
-    # Try to get config from checkpoint, otherwise load default config
-    try:
-        config = ckpt_dict["config"]
-        pointnav_policy = PointNavResNetTensorOutputPolicy.from_config(
-            config, obs_space, action_space
-        )
-    except:
-        habitat_config = "nav/vlfm.yaml"
-        config = get_config(habitat_config)
-        pointnav_policy = PointNavResNetTensorOutputPolicy.from_config(
-            config, obs_space, action_space
-        )
+    # Adapt legacy policy config to Habitat Baselines 0.3.2.
+    config = OmegaConf.create(
+        OmegaConf.to_container(ckpt_dict["config"], resolve=False)
+    )
+    agent_name = config.habitat.simulator.agents_order[0]
+    if "name" in config.habitat_baselines.rl.policy:
+        legacy_policy = config.habitat_baselines.rl.policy
+        config.habitat_baselines.rl.policy = {agent_name: legacy_policy}
+
+    pointnav_policy = PointNavResNetTensorOutputPolicy.from_config(
+        config, obs_space, action_space
+    )
 
     # Try to load state dict directly, otherwise convert from old format
     try:

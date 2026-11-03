@@ -1,0 +1,11 @@
+{
+  "completed": 18,
+  "successes": 14,
+  "spl": 0.38212673863411006,
+  "mean_seconds": 282.8861931103359,
+  "median_seconds": 270.5335201405687,
+  "frontier_calls": 486,
+  "frontier_parse_failures": 199,
+  "frontier_retries": 188,
+  "frontier_seconds": 2981.251229363261
+}

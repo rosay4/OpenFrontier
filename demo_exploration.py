@@ -33,6 +33,7 @@ from mapping.wavemap import WaveMapper
 
 # Frontier Manager
 from frontier.manager import FrontierManager
+from planner.occ_rrt_point3d import OccupancyGrid3DPathPlanner
 
 def metric_depth_from_rgb_metric3d(
     rgb_input, intrinsic_mat, camera_W, camera_H, local_model_path
@@ -583,7 +584,9 @@ class ExplorerApp:
 
         # Frontier Manager
         self.ft_manager = FrontierManager(
-            params=self.config, log_level=self.args.log_level
+            params=self.config,
+            log_level=self.args.log_level,
+            planner=OccupancyGrid3DPathPlanner(self.config),
         )
 
     def run(self) -> None:
